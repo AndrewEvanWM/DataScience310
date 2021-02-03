@@ -1,0 +1,5 @@
+1. The difference between machine learning and traditional programming is the orientation of rules, data, and answers. In traditional programming, the program is fed the rules and data to produce answers. However, in machine learning the program takes in a lot of data and answers and produces the rules. 
+
+2. I ran the program twice and got 21.996763 and 22.002861. While they are very close, the answers are still different. This is because each time the program runs, it is relearning the data and creating a new prediction. Each time it runs, the data retrains the rules and changes the estimated result. 
+
+3. I used the number of bedrooms and listed price to train the model. According to the machine learning predictor the best deal is Hudgins. This was the best deal because an average house with three bedrooms is worth over $234,000. I did the same thing with two bedrooms and four bedrooms comparing Moon and Church. The two bedroom price was $169,000 and the four bedroom price was $299,000. The worst deal is Church because the difference is more noticable. 
