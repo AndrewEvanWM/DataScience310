@@ -3,3 +3,5 @@
 2. I ran the program twice and got 21.996763 and 22.002861. While they are very close, the answers are still different. This is because each time the program runs, it is relearning the data and creating a new prediction. Each time it runs, the data retrains the rules and changes the estimated result. 
 
 3. I used the number of bedrooms and listed price to train the model. According to the machine learning predictor the best deal is Hudgins. This was the best deal because an average house with three bedrooms is worth over $234,000. I did the same thing with two bedrooms and four bedrooms comparing Moon and Church. The two bedroom price was $169,000 and the four bedroom price was $299,000. The worst deal is Church because the difference is more noticable. 
+
+3. UPDATED. In the updated version of the machine, we took in three starting variables, the number of bedrooms, the number of bathrooms, and the square footage. This model found that the Moon is the worst deal, costing almost $100,000 more dollars than it should. The new best deal is New Point Comfort. What is a $274,000 value according to the machine only comes in at $229,000. 
