@@ -9,3 +9,5 @@
    c. There are 10,000 testing images and each are 28x28. 
    d. Done in pycharm.
    
+5. For the first data point in the testing data set, the np.argmax predicted it would be a 7. This is a good guess as the image is included below. 
+![Alt Text](/q5.png)
