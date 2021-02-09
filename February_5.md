@@ -11,3 +11,5 @@
    
 5. For the first data point in the testing data set, the np.argmax predicted it would be a 7. This is a good guess as the image is included below. 
 ![Alt Text](/q5.png)
+
+6. ![Alt Text](/Feb2.5img.png)
