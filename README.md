@@ -5,3 +5,4 @@
 - [February_5](https://andrewevanwm.github.io/DataScience310/February_5.html)
 
 ## Projects
+- [MiniProject1](https://andrewevanwm.github.io/DataScience310/MiniProject1.html)
