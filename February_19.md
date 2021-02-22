@@ -16,6 +16,7 @@ The effect of applying this filter is that the lines seem to be sharpened. This 
 
 3. The following is the code used to created the matrices and the convolution of the 3x3 matrix over the 9x9 matrix. The result is another 9x9 matrix. Its values are also listed below.
 
+
 ```
 import numpy as np
 filter = [ [0, 0, 0], [1, 1, 1], [0, 0, 0]]
@@ -52,6 +53,7 @@ for x in range(1,size_x-1):
 
 print(i_transformed)
 ```
+
 
 [[0 0 0 0 1 0 0 0 0]
 
