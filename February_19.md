@@ -12,6 +12,8 @@ Stretch Goal
 ![Alt Text](/convolution5.png)
 ![Alt Text](/convolution6.png)
 
+Much like with the previous image, this new image of a city has three different filters. The first filter again focuses on the middle edges with less concern on the center pixel. In this case the outlines of the buildings are still visible. The next filter again focuses on the the vertical lines. These become very impressive and defined in the skyscrappers. Finally, the last filter focuses on horizontal lines. The biggest difference between image 2 and 3 is in the second building from the left where the different floors can be seen. 
+
 2:
 
 ![Alt Text](/pooling.png)
@@ -21,6 +23,8 @@ The effect of applying this filter is that the lines seem to be sharpened. This 
 Stretch Goal
 
 ![Alt Text](/pooling2.png)
+
+For the stretch goal the vertical line filter was again selected. This results in much thicker vertical lines going throughout the image. The pooling was again maximizing and does a good job at making the long vertical lines stand out and get thicker. 
 
 3: The following is the code used to created the matrices and the convolution of the 3x3 matrix over the 9x9 matrix. The result is another 9x9 matrix. Its values are also listed below.
 
