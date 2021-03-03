@@ -6,11 +6,11 @@ To prepare the model, some things still needed to be completed on the data. Afte
 
 ![Alt Text](/project1_mse2.png)
 
-The model was now ready to output data. For the last run through the data, the loss was 217.4033. The entire history of the loss function can be seen in the graph above. As one can see, there was a steady decline at the start, but after around 10 epochs it hovers around the 200 mark and goes up and down from there frequently. 
+The model was now ready to output data. For the last run through the data, the loss was 217.4033. The entire history of the loss function can be seen in the graph above. As one can see, there was a steady decline at the start, but after around 10 epochs it hovers around the 200 mark and goes up and down from there frequently. The mean squared error of the entire dataset was 179.88. 
 
 ![Alt_Text](/project1_predvasking2.png)
 
-The next graphic is the predicted vs asking price graph. For this image, the line demonstrates a 1:1 ratio if the value was perfectly predicted. Any point to the left was over predicted, and any point to the right was underpredicted. The main outlier is a home which is valued at $45,000,000 which the predicted value was nearly $35,000,000. The majority of the data was underpredicted. The mean squared error of the entire dataset was 179.88. 
+The next graphic is the predicted vs asking price graph. For this image, the line demonstrates a 1:1 ratio if the value was perfectly predicted. Any point to the left was over predicted, and any point to the right was underpredicted. The main outlier is a home which is valued at $45,000,000 which the predicted value was nearly $35,000,000. The majority of the data was underpredicted. 
 
 ![Alt_Text](/project1_bedsvdiff2.png)
 
