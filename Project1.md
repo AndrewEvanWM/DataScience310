@@ -4,15 +4,15 @@ To begin this process, first the data needed to be scraped from Zillow’s websi
 
 To prepare the model, some things still needed to be completed on the data. After importing the csv file into a new modeling python file, the prices and square footage were normalized. Each of the prices were divided by 100,000 and each of the square feet were divided by 1,000. This hoped to reduce the bias in these columns during the model fitting. The model itself is a tensorflow keras sequential model with an input shape of 3 and an activation = 'softplus'. The softplus was used because there were some errors in testing where a negative output would result, the softplus mandates that the predicted value be greater than 0. The three input layers are beds, baths, and square feet. The y variable, or the predicted variable, was the prices of the homes. The model was compiled with an optimizer of stochastic gradient descent and a loss function of mean squared error. From here the model was fit over 1,000 epochs. From this, I was able to gain the model output and begin predicting the prices of homes. 
 
-![Alt Text](/project1_mse.png)
+![Alt Text](/project1_mse2.png)
 
 The model was now ready to output data. For the last run through the data, the loss was 217.4033. The entire history of the loss function can be seen in the graph above. As one can see, there was a steady decline at the start, but after around 10 epochs it hovers around the 200 mark and goes up and down from there frequently. 
 
-![Alt_Text](/project1_predvasking.png)
+![Alt_Text](/project1_predvasking2.png)
 
 The next graphic is the predicted vs asking price graph. For this image, the line demonstrates a 1:1 ratio if the value was perfectly predicted. Any point to the left was over predicted, and any point to the right was underpredicted. The main outlier is a home which is valued at $45,000,000 which the predicted value was nearly $35,000,000. The majority of the data was underpredicted. The mean squared error of the entire dataset was 179.88. 
 
-![Alt_Text](/project1_bedsvdiff.png)
+![Alt_Text](/project1_bedsvdiff2.png)
 
 Finally we come to the best and worst predictions from this dataset. I found that the data with 1 or 2 beds were relatively effective at being predicted. This can be seen with the graphic above. This graph demonstrates the number of beds in relation to the difference in price. However, when the number of beds increased, the predicted failed to be as accurate both for good deals and bad deals. This can be seen in the larger spread of data points from 3 or greater beds. The model was successful at predicting homes with 7 beds, with a consistant lean on underpredicting. Of the 10 best deals, each had at least 3 bedrooms with the average being 5.1 bedrooms. The MSE of these points was 3767.72. While a large error still existed for the worst 10 deals, the MSE was better at 1295.24. These points also had at least 3 bedrooms in their homes. In comparison, the 10 best priced data only had a MSE of 0.32 and included 6 homes with either 1 or 2 bedrooms. 
 
