@@ -9,3 +9,4 @@
 ## Projects
 - [MiniProject1](https://andrewevanwm.github.io/DataScience310/MiniProject1.html)
 - [Project1](https://andrewevanwm.github.io/DataScience310/Project1.html)
+- [Project2](https://andrewevanwm.github.io/DataScience310/Project2.html)
