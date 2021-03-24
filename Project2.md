@@ -30,31 +30,33 @@ The next model in this report is a logistic regression done in python. One of th
 Wealth Group 1
 
 ![Alt_Text](/results1.png)
-![Alt_Text](/ROC1.png)
+![Alt_Text](/scratchROC1.png)
 
 Wealth Group 2
 
 ![Alt_Text](/results2.png)
-![Alt_Text](/ROC2.png)
+![Alt_Text](/scratchROC2.png)
 
 Wealth Group 3
 
 ![Alt_Text](/results3.png)
-![Alt_Text](/ROC3.png)
+![Alt_Text](/scratchROC3.png)
 
 Wealth Group 4
 
 ![Alt_Text](/results4.png)
-![Alt_Text](/ROC4.png)
+![Alt_Text](/scratchROC4.png)
 
 Wealth Group 5
 
 ![Alt_Text](/results5.png)
-![Alt_Text](/ROC5.png)
+![Alt_Text](/scratchROC5.png)
 
-From these results it can be seen that splitting the classifications into one group vs the others greatly improves the accuracy of the model. It is much easier for the classification between in group or out of group rather than chosing from 5 options. The results also improve as 
+From these results it can be seen that splitting the classifications into one group vs the others greatly improves the accuracy of the model. It is much easier for the classification between in group or out of group rather than chosing from 5 options. The results also improve as one progresses through the groups. Wealth group 5 has nearly a 10% point increase over wealth group 1 in the accuracy. 
 
-The final model being examined is a gradient boosting model using decision trees. Below are the results for each of the groups.
+Further, in this model there was an addition of the derived feature columns selected in order to extend capturing combinations of correlations. I did each of the permuations of the four features, and expended combining the best two features, age and size, it would greatly improve the results. In the end however, the results were not as promising. When done on wealth group 5, the accuracy of the model remained at about the same, but the AUC decreased from above .70 to around .66. The accuracy for each of the groups tells a similar story. None improve through this method. Interestingly for wealth group 3, the AUC decreases below .5 for the combination of gender and education making the model worse than just randomly predicting. 
+
+The final model being examined is a gradient boosting model using decision trees. The same 1 versus 4 grouping was done for this model as well. Below are the results for each of the groups.
 
 Wealth Group 1
 
@@ -81,4 +83,10 @@ Wealth Group 5
 ![Alt_Text](/gradboost5.png)
 ![Alt_Text](/gradboost5ROC.png)
 
-From this information, we can see a steady increase in the accuracy of the model as we get into the higher numbered groups. Like the previous models, the most accurate predictions came for wealth group 5. The 
+From this information, we can see a steady increase in the accuracy of the model as we get into the higher numbered groups. Like the previous models, the most accurate predictions came for wealth group 5. The results of this model are very similar and comparable to the previous model's, but slightly more accurate. Further, the AUC values were greater for the gradient boosting model using decision trees. 
+
+With all the calculations done, it is time to crown one model as the most impressive.
+
+There were no major discrepancies between the five wealth outcomes in the DHS survery dataset. While there were the least number of individuals in wealth group 5, it was not an overwhleming minority. It is likely this smaller grouping which made the accuracy of the models improve as one traverses up the wealth groups. Wealth group 1 is the largest, with group 2 being the second and so on down to 5. This is likely where the improvements in accuracy can be seen. Below is the graphic of the distribution of wealth groups.
+
+![Alt_Text](/wealthgroups.png)
