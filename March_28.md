@@ -1,0 +1,4 @@
+For this project I again chose Nepal as my research country. The first step was to download all the data from the various websites. The administrative subdivisions were rather easy to download, but I had some trouble intially downloading the population rasters from WorldPop. It was not downloading on Google Chrome, but when I switched to Firefox, it solved the issue. Further, I was unable to download the 2019 population data, but I was able to use the 2020 constrained population data and used that for this module. With the data downloaded, I moved into RStudio where I ran the code provided. After changing the file names, I was able to create the rasters and produce a pair of plots. These plots are included below. 
+
+![Alt_Text](/linearregressionresults.png)
+![Alt_Text](/variableimportance.png)
