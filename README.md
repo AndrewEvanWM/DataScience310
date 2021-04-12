@@ -8,6 +8,7 @@
 - [March_10](https://andrewevanwm.github.io/DataScience310/March_10.html)
 - [March_28](https://andrewevanwm.github.io/DataScience310/March_28.html)
 - [April_2](https://andrewevanwm.github.io/DataScience310/April_2.html)
+- [April_9](https://andrewevanwm.github.io/DataScience310/April_9.html)
 
 ## Projects
 - [MiniProject1](https://andrewevanwm.github.io/DataScience310/MiniProject1.html)
