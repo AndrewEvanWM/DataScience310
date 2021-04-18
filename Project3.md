@@ -26,7 +26,7 @@ The next model to be examined is the random forest. This forest is built of 500 
 
 There is a steady decline at the beginning with some slight spikes around 40 trees. The error then decreases around 100 trees where it seems to be near the lowest of the entire model. Around 280 trees the error again decreases and reaches the lowest point in the model. The next image is of the importance of the variables. 
 
-![Alt_Text](/proj3rfcariableimportance.png)
+![Alt_Text](/proj3rfvariableimportance.png)
 
 Again, the most important variable is the night time lights. Below are the images of the predictions and the difference between the actual and prediction.
 
