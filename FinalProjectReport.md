@@ -6,25 +6,25 @@ For this project, I used three different machine learning models and compared th
 
 Linear Regression
 
-'''
+'
 lr = LinearRegression().fit(X_train,y_train)
 pred = lr.predict(X_test)
-'''
+'
 
 Decision Tree Regressor
 
-'''
+'
 dtr = tree.DecisionTreeRegressor()
 dtr = dtr.fit(X_train, y_train)
 pred = dtr.predict(X_test)
-'''
+'
 
 Neural Network
 
-'''
+`
 nn = MLPRegressor(max_iter=500).fit(X_train, y_train)
 pred = nn.predict(X_test)
-'''
+`
 
 For each of these models, there was a split of training and testing data using sklearn's train_test_split function. The code in practice had a few sections, many of which did the same thing. The first section processed the data and calculated the slugging percentage for each exit velocity and launch angle. From this, I was able to find the highest slugging percentage for each with a minimum of 10 at-bats. After this was found, I set up the test/training data and created the models. From these I was then able to calculate the mean squared error and R2 score. This will be explored in the next section of this report.
 
