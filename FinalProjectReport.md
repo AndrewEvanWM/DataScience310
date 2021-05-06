@@ -28,3 +28,7 @@ pred = nn.predict(X_test)
 
 For each of these models, there was a split of training and testing data using sklearn's train_test_split function. The code in practice had a few sections, many of which did the same thing. The first section processed the data and calculated the slugging percentage for each exit velocity and launch angle. From this, I was able to find the highest slugging percentage for each with a minimum of 10 at-bats. After this was found, I set up the test/training data and created the models. From these I was then able to calculate the mean squared error and R2 score. This will be explored in the next section of this report.
 
+The results of the first question, what the optimal launch angle and exit velocity came out to be 25 degrees and 113 mph. These were each individually the highest slugging percentages. When compared to data from the baseball savant website, it appears to be a great prediction with a slugging percentage of 4, a perfect score. Below is an image from the baseball savant website which displays the outcome. 
+
+![Alt_Text]{113mph25LA.jpg}
+
