@@ -30,5 +30,5 @@ For each of these models, there was a split of training and testing data using s
 
 The results of the first question, what the optimal launch angle and exit velocity came out to be 25 degrees and 113 mph. These were each individually the highest slugging percentages. When compared to data from the baseball savant website, it appears to be a great prediction with a slugging percentage of 4, a perfect score. Below is an image from the baseball savant website which displays the outcome. 
 
-![Alt_Text]{113mph25LA.jpg}
+![Alt_Text](/113mph25LA.jpg)
 
