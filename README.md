@@ -16,3 +16,4 @@
 - [Project1](https://andrewevanwm.github.io/DataScience310/Project1.html)
 - [Project2](https://andrewevanwm.github.io/DataScience310/Project2.html)
 - [Project3](https://andrewevanwm.github.io/DataScience310/Project3.html)
+- [FinalProjectReport](https://andrewevanwm.github.io/DataScience310/FinalProjectReport.html)
