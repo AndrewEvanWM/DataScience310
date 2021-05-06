@@ -34,10 +34,8 @@ The results of the first question, what the optimal launch angle and exit veloci
 
 For the rest of the models I found that the linear regression was the most accurate at predicting the slugging percentage. This came as a little of a shock to me, as I predicted the neural network would be the most accurate, but the results showed that for both the launch angle and the exit velocity the linear regression was the best. Below are the MSE and R2 values for one run of each  of the models. 
 
-![Alt_Text](/finalprojectresults1.png)
+![Alt_Text](/finalprojectresults4.png)
 
-![Alt_Text](/finalprojectresults2.png)
-
-![Alt_Text](/finalprojectresults3.png)
+![Alt_Text](/finalprojectresults5.png)
 
 With more time on this project, I would hope to be even more accurate. Perhaps if I had included the singles, doubles, triples, and home runs into the training data there would have been a perfect prediction, as the models would have all the values neccessary to compute slugging percentage. With more time, and more training I believe the models could become more accurate, but as they stand now, these are very accurate models. 
